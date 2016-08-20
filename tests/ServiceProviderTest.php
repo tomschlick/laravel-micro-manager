@@ -5,11 +5,8 @@ namespace TomSchlick\MicroManager\Tests;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Class ServiceProviderTest
- *
- * @package TomSchlick\MicroManager\Tests
+ * Class ServiceProviderTest.
  */
 class ServiceProviderTest extends TestCase
 {
-
 }
