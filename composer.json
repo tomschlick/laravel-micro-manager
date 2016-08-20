@@ -9,6 +9,7 @@
     ],
     "license": "MIT",
     "type": "library",
+    "minimum-stability": "dev",
     "require": {
         "illuminate/queue": "^5.3",
         "illuminate/support": "^5.3",
