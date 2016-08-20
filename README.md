@@ -7,3 +7,7 @@ Oversee jobs you have put into the queue. Track status, completion % and other j
 [![Total Downloads](https://poser.pugx.org/tomschlick/laravel-micro-manager/downloads)](https://packagist.org/packages/tomschlick/laravel-micro-manager)
 [![License](https://poser.pugx.org/tomschlick/laravel-micro-manager/license)](https://packagist.org/packages/tomschlick/laravel-micro-manager)
 --------
+## Install via Composer
+```bash
+  composer require tomschlick/laravel-micro-manager
+```
