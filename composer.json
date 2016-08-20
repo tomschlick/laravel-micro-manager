@@ -1,0 +1,22 @@
+{
+    "name": "tomschlick/laravel-micro-manager",
+    "description": "Oversee jobs you have put into the queue. Track status, completion % and other job information in real time.",
+    "authors": [
+        {
+            "name": "Tom Schlick",
+            "email": "tom@tomschlick.com"
+        }
+    ],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "illuminate/queue": "^5.3",
+        "illuminate/support": "^5.3",
+        "illuminate/contracts": "^5.3",
+        "illuminate/events": "^5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.5",
+        "mockery/mockery": "^0.9.5"
+    }
+}
