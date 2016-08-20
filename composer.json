@@ -10,6 +10,16 @@
     "license": "MIT",
     "type": "library",
     "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "TomSchlick\\MicroManager\\": "src/"
+        },
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TomSchlick\\MicroManager\\Tests\\": "tests/"
+        }
+    },
     "require": {
         "illuminate/queue": "^5.3",
         "illuminate/support": "^5.3",
