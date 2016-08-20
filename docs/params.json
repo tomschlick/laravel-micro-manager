@@ -1,0 +1,6 @@
+{
+  "name": "Laravel Micro Manager",
+  "tagline": "Oversee jobs you have put into the queue. Track status, completion % and other job information in real time.",
+  "body": "# Laravel Micro Manager\r\n\r\nOversee jobs you have put into the queue. Track status, completion % and other job information in real time.\r\n[![StyleCI](https://styleci.io/repos/66167231/shield)](https://styleci.io/repos/66167231)\r\n--------\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
