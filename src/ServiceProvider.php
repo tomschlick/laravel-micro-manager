@@ -5,11 +5,8 @@ namespace TomSchlick\MicroManager;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
 /**
- * Class ServiceProvider
- *
- * @package TomSchlick\MicroManager
+ * Class ServiceProvider.
  */
 class ServiceProvider extends IlluminateServiceProvider
 {
-
 }
