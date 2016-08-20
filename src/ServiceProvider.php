@@ -17,7 +17,7 @@ class ServiceProvider extends IlluminateServiceProvider
     public function register()
     {
         $this->publishes([
-            __DIR__ . '/../config/micro-manager.php' => config_path('micro-manager.php'),
+            __DIR__.'/../config/micro-manager.php' => config_path('micro-manager.php'),
         ]);
     }
 }

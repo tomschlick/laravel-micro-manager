@@ -5,9 +5,7 @@ namespace TomSchlick\MicroManager;
 use Ramsey\Uuid\Uuid;
 
 /**
- * Class Watchable
- *
- * @package TomSchlick\MicroManager
+ * Class Watchable.
  */
 trait Watchable
 {
@@ -100,5 +98,4 @@ trait Watchable
 
         return $this;
     }
-
 }
