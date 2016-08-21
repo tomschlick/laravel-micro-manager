@@ -9,9 +9,7 @@ use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 use Illuminate\Queue\SerializesModels;
 
 /**
- * Class JobUpdated
- *
- * @package TomSchlick\MicroManager\Events
+ * Class JobUpdated.
  */
 class JobUpdated implements ShouldBroadcast
 {
@@ -39,6 +37,6 @@ class JobUpdated implements ShouldBroadcast
      */
     public function broadcastOn()
     {
-        return new PrivateChannel(config('micro-manager.broadcast.channel') . ':' . $this->watchableData['id']);
+        return new PrivateChannel(config('micro-manager.broadcast.channel').':'.$this->watchableData['id']);
     }
 }

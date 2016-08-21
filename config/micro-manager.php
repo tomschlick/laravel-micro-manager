@@ -11,6 +11,6 @@ return [
     // Define your temporary storage
     'storage'   => [
         'driver'       => 'redis',
-        'delete_after' => 180 // minutes
+        'delete_after' => 180, // minutes
     ],
 ];
