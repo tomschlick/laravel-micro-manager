@@ -3,6 +3,7 @@
 namespace TomSchlick\MicroManager;
 
 use Ramsey\Uuid\Uuid;
+use TomSchlick\MicroManager\Events\JobUpdated;
 
 /**
  * Class Watchable.
@@ -94,7 +95,7 @@ trait Watchable
     {
         $this->setLastPingAt();
 
-        // Ping endpoint with full payload
+        event(new JobUpdated($this->watchableData));
 
         return $this;
     }
