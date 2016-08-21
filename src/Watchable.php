@@ -15,7 +15,7 @@ trait Watchable
         'type'         => null,
         'status'       => null,
         'progress'     => 0,
-        'tries'        => 1,
+        'attempt'      => 1,
         'last_message' => null,
         'last_ping_at' => null,
         'created_at'   => null,
@@ -23,6 +23,13 @@ trait Watchable
         'started_at'   => null,
         'completed_at' => null,
     ];
+
+    public function watch()
+    {
+        $this->setWatchableId();
+
+        return $this;
+    }
 
     /**
      * @param string|null $id
