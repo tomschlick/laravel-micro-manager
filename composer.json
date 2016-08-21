@@ -21,6 +21,7 @@
         }
     },
     "require": {
+        "php": "^7.0",
         "illuminate/queue": "^5.2",
         "illuminate/support": "^5.2",
         "illuminate/contracts": "^5.2",
